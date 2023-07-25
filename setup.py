@@ -9,7 +9,7 @@ __version__ = "0.0.0"
 REPO_NAME = "Abridge"
 AUTHOR_USER_NAME = "chaba-victor"
 SRC_REPO = "textSummarizer"
-AUTHOR_EMAIL = "chabavictor7@gmail.com"
+AUTHOR_EMAIL = "chabavictor77@gmail.com"
 
 
 
@@ -18,7 +18,7 @@ setuptools.setup(
     version=__version__,
     author=AUTHOR_USER_NAME,
     author_email=AUTHOR_EMAIL,
-    description="A text summarizer that utilizes NLP techniques to condense lenthy documents into concise summaries",
+    description="A text summarizer that utilizes natural language processing techniques to condense lengthy documents into concise summaries",
     long_description=long_description,
     long_description_content="text/markdown",
     url=f"https://github.com/{AUTHOR_USER_NAME}/{REPO_NAME}",
