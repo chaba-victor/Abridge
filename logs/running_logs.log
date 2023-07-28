@@ -1,0 +1,68 @@
+[2023-07-28 10:41:12,145: INFO: utils: NumExpr defaulting to 6 threads.]
+[2023-07-28 10:41:46,194: INFO: server: Started server process [22396]]
+[2023-07-28 10:41:46,195: INFO: on: Waiting for application startup.]
+[2023-07-28 10:41:46,196: INFO: on: Application startup complete.]
+[2023-07-28 10:41:46,197: INFO: server: Uvicorn running on http://0.0.0.0:8080 (Press CTRL+C to quit)]
+[2023-07-28 10:47:03,843: INFO: utils: NumExpr defaulting to 6 threads.]
+[2023-07-28 10:47:06,375: INFO: server: Started server process [22448]]
+[2023-07-28 10:47:06,375: INFO: on: Waiting for application startup.]
+[2023-07-28 10:47:06,387: INFO: on: Application startup complete.]
+[2023-07-28 10:47:06,388: INFO: server: Uvicorn running on http://0.0.0.0:8080 (Press CTRL+C to quit)]
+[2023-07-28 10:49:32,440: INFO: utils: NumExpr defaulting to 6 threads.]
+[2023-07-28 10:49:38,007: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2023-07-28 10:49:38,024: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-07-28 10:49:38,024: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-07-28 10:49:38,040: INFO: common: created directory at: artifacts]
+[2023-07-28 10:49:38,040: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-07-28 10:49:50,640: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 7903594
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "dbc016a060da18070593b83afff580c9b300f0b6ea4147a7988433e04df246ca"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 9276:443D:10BE32:1757B3:64C37313
+Accept-Ranges: bytes
+Date: Fri, 28 Jul 2023 07:49:40 GMT
+Via: 1.1 varnish
+X-Served-By: cache-jnb7027-JNB
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1690530579.414963,VS0,VE835
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 93ef7930d4d41ac7061a42727e9036e20f5256c2
+Expires: Fri, 28 Jul 2023 07:54:40 GMT
+Source-Age: 0
+
+]
+[2023-07-28 10:49:50,758: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2023-07-28 10:49:50,758: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2023-07-28 10:49:50,758: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-07-28 10:49:50,758: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-07-28 10:49:50,758: INFO: common: created directory at: artifacts]
+[2023-07-28 10:49:50,758: INFO: common: created directory at: artifacts/data_validation]
+[2023-07-28 10:49:50,774: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2023-07-28 10:49:50,774: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2023-07-28 10:49:50,774: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-07-28 10:49:50,774: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-07-28 10:49:50,774: INFO: common: created directory at: artifacts]
+[2023-07-28 10:49:50,774: INFO: common: created directory at: artifacts/data_transformation]
+[2023-07-28 10:49:58,281: INFO: main: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2023-07-28 10:49:58,281: INFO: main: *******************]
+[2023-07-28 10:49:58,281: INFO: main: >>>>>> stage Model Trainer stage started <<<<<<]
+[2023-07-28 10:49:58,291: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-07-28 10:49:58,291: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-07-28 10:49:58,291: INFO: common: created directory at: artifacts]
+[2023-07-28 10:49:58,291: INFO: common: created directory at: artifacts/model_trainer]

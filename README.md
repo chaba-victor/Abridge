@@ -23,11 +23,11 @@ https://github.com/entbappy/End-to-end-Text-Summarization
 ### STEP 01- Create a conda environment after opening the repository
 
 ```bash
-conda create -n summary python=3.8 -y
+conda create -n TextS python=3.8 -y
 ```
 
 ```bash
-conda activate summary
+conda activate TextS
 ```
 
 
@@ -49,9 +49,9 @@ open up you local host and port
 
 
 ```bash
-Author: Krish Naik
-Data Scientist
-Email: krishnaik06@gmail.com
+Author: Chaba Victor
+Data MLOps Eng.
+Email: chabavictor7@gmail.com
 
 ```
 
