@@ -23,11 +23,11 @@ https://github.com/entbappy/End-to-end-Text-Summarization
 ### STEP 01- Create a conda environment after opening the repository
 
 ```bash
-conda create -n TextS python=3.8 -y
+conda create -n summary python=3.8 -y
 ```
 
 ```bash
-conda activate TextS
+conda activate summary
 ```
 
 
@@ -49,9 +49,9 @@ open up you local host and port
 
 
 ```bash
-Author: Chaba Victor
-Data MLOps Eng.
-Email: chabavictor7@gmail.com
+Author: Krish Naik
+Data Scientist
+Email: krishnaik06@gmail.com
 
 ```
 
@@ -129,3 +129,8 @@ Email: chabavictor7@gmail.com
     AWS_ECR_LOGIN_URI = demo>>  566373416292.dkr.ecr.ap-south-1.amazonaws.com
 
     ECR_REPOSITORY_NAME = simple-app
+
+
+# 7 What's next for the project:
+
+The current UI is anchored on FAST API. The goal is to serve the model on a stand alone react/HTML UI.
