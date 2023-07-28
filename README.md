@@ -129,3 +129,8 @@ Email: krishnaik06@gmail.com
     AWS_ECR_LOGIN_URI = demo>>  566373416292.dkr.ecr.ap-south-1.amazonaws.com
 
     ECR_REPOSITORY_NAME = simple-app
+
+
+# 7 What's next for the project:
+
+The current UI is anchored on FAST API. The goal is to serve the model on a stand alone react/HTML UI.
