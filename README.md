@@ -50,7 +50,7 @@ open up you local host and port
 
 ```bash
 Author: Chaba Victor
-Data MLOps Eng.
+Data/MLOps Eng.
 Email: chabavictor7@gmail.com
 
 ```
