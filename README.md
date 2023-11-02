@@ -133,4 +133,4 @@ Email: chabavictor7@gmail.com
 
 # 7 What's next for the project:
 
-The current UI is anchored on FAST API. The goal is to serve the model on a stand alone react/HTML UI.
+The current UI is anchored on FAST API. The goal is to serve the model on a stand alone react/HTML web app.
