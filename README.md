@@ -43,18 +43,8 @@ python app.py
 ```
 
 Now,
-```bash
+
 open up you local host and port
-```
-
-
-```bash
-Author: Chaba Victor
-Data/MLOps Eng.
-Email: chabavictor7@gmail.com
-
-```
-
 
 
 # AWS-CICD-Deployment-with-Github-Actions
